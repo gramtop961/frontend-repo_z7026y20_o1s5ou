@@ -2,23 +2,23 @@ import Spline from '@splinetool/react-spline';
 
 function Hero() {
   return (
-    <section className="relative min-h-[90vh] w-full overflow-hidden bg-black text-white">
+    <section className="relative min-h-[92vh] w-full overflow-hidden bg-black text-white">
       {/* 3D Scene */}
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/qQUip0dJPqrrPryE/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        <Spline scene="https://prod.spline.design/N8g2VNcx8Rycz93J/scene.splinecode" style={{ width: '100%', height: '100%' }} />
       </div>
 
       {/* Soft gradient overlays that don't block the scene */}
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/80" />
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-black" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_60%_at_50%_40%,rgba(56,189,248,0.18),transparent_60%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/70 via-black/30 to-black/90" />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex min-h-[90vh] w-full max-w-7xl flex-col items-center justify-between px-6 py-8">
+      <div className="relative z-10 mx-auto flex min-h-[92vh] w-full max-w-7xl flex-col items-center justify-between px-6 py-8">
         {/* Top nav */}
         <div className="flex w-full items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-cyan-400 via-blue-500 to-indigo-600 p-[2px]">
-              <div className="h-full w-full rounded-[10px] bg-black flex items-center justify-center text-cyan-300 font-bold">K</div>
+              <div className="flex h-full w-full items-center justify-center rounded-[10px] bg-black text-cyan-300 font-bold">K</div>
             </div>
             <span className="text-lg font-semibold tracking-tight">KIPIAI.ID</span>
           </div>
@@ -40,7 +40,7 @@ function Hero() {
             See performance clearly. Act with confidence.
           </h1>
           <p className="mt-4 text-base leading-relaxed text-white/80 sm:text-lg">
-            KIPIAI.ID brings engagement, productivity, and growth signals into one live, iridescent dashboard—so you can coach faster, recognize earlier, and scale a high‑performing culture.
+            KIPIAI.ID unifies engagement, productivity, and growth signals into one live, iridescent hub—coach faster, recognize earlier, and scale a high‑performing culture.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a href="#cta" className="rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-cyan-500/20 hover:from-cyan-400 hover:to-blue-500">
